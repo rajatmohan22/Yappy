@@ -35,7 +35,7 @@ const UserForm = (props) => {
     setValid(close);
   };
   return (
-    <div>
+    <>
       <form
         onSubmit={submitHandler}
         className={`user-form ${!isValid && "low-contrast"}`}
@@ -65,7 +65,7 @@ const UserForm = (props) => {
         <button type="submit">Submit</button>
       </form>
       {!isValid && <Popup Message={message} isCloseClicked={CloseHandler} />}
-    </div>
+    </>
   );
 };
 
