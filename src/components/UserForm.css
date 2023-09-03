@@ -1,0 +1,47 @@
+.user-form {
+    max-width: 300px;
+    margin: 20px; /* Add margin for spacing */
+    padding: 40px; /* Equal padding around the form */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333; /* Blackish form background color */
+}
+
+.user-form.low-contrast {
+    background-color: #111; /* Darker background color */
+    color: #eee; 
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff; /* White text color */
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #444; /* Dark gray input background color */
+    color: #fff; /* White text color */
+}
+
+.form-input::placeholder {
+    color: #ccc; /* Light gray placeholder text color */
+}
+
+button {
+    background-color: #007bff; /* Blue button background color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
